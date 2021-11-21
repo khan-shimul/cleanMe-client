@@ -1,16 +1,11 @@
 import { Container, Grid, Paper, SvgIcon, Typography } from '@mui/material';
 import { Box } from '@mui/system';
-import CleanHandsIcon from '@mui/icons-material/CleanHands';
 import React from 'react';
 import { serviceInfoData } from '../../../data/data';
-import { makeStyles } from '@mui/styles';
 
 
 
 const InfoServices = () => {
-    const useStyle = makeStyles({
-
-    })
     return (
         <>
             <Container sx={{ mt: '-80px' }}>
