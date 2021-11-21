@@ -21,10 +21,10 @@ const InfoServices = () => {
                             <Paper sx={{ p: 3 }}>
                                 <Box component="div" sx={{ display: 'flex', justifyContent: 'space-evenly', alignItems: 'center' }}>
                                     <Box component="div" sx={{ display: 'block', mr: 2, bgcolor: '#F0F1F3', p: 2, borderRadius: 16, height: '50%' }}>
-                                        <Icon sx={{ fontSize: 50, textAlign: 'center' }} />
+                                        <Icon sx={{ fontSize: 50, textAlign: 'center', color: '#292C32' }} />
                                     </Box>
                                     <Box component="div">
-                                        <Typography variant="h6" sx={{ color: '#082680', fontWeight: 600 }}>{title}</Typography>
+                                        <Typography variant="h5" sx={{ color: '#082680', fontWeight: 600 }}>{title}</Typography>
                                         <Typography variant="subtitle2" sx={{ color: '#3A4268' }}>{description}</Typography>
                                     </Box>
                                 </Box>
