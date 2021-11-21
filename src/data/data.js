@@ -8,7 +8,6 @@ export const serviceInfoData = [
         title: 'House Cleaning',
         description: 'Responsible for all basic cleaning in and around buildings.',
         Icon: CleanHandsIcon,
-        background: '#1CC7C1'
     },
     {
         title: 'Indoor Cleaning',
@@ -20,6 +19,5 @@ export const serviceInfoData = [
         title: 'Office Cleaning',
         description: 'Picking up larger objects off floor, spot cleaning glass and windows.',
         Icon: BusinessIcon,
-        background: '#1CC7C1'
     }
 ];
